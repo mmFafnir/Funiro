@@ -739,7 +739,7 @@ button {
 }
 
 .slider-nav__arrows {
-  top: -55px;
+  top: 45px;
   width: 130px;
   position: absolute;
   right: 10px;
@@ -855,6 +855,7 @@ button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100%;
+  bottom: 0px !important;
 }
 
 .swiper-pagination-bullet {
@@ -1314,7 +1315,7 @@ button {
 }
 
 .sliders-rooms__nav-arrows {
-  width: 130px;
+  width: 196px;
   position: relative;
 }
 
@@ -2229,20 +2230,36 @@ button {
     display: flex;
   }
 
+  .home{
+    padding-top: 0px
+  }
   .content-home {
-    position: relative;
+    top: 90px;
     max-width: 100%;
     -ms-flex-item-align: stretch;
         align-self: stretch;
     background-color: rgba(255, 255, 255, 0.81);
   }
 
+  .slider-nav{
+    display: none;
+  }
+
+  .slider-nav__arrows{
+    display: none;
+  }
   .slider-home {
     -ms-flex-item-align: stretch;
         align-self: stretch;
     width: 100%;
+    height: 100vh;
   }
-
+  .slide-home{
+    height: 100% !important;
+  }
+  .slide-home__content{
+/*    bottom: 114px*/
+  }
   .advant__item {
     width: 50%;
   }
